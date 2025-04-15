@@ -21,7 +21,7 @@ This project sets up a production-ready Moodle environment using Docker Compose,
 ✅ Database isolated in internal network  
 ✅ Encrypted communication between containers  
 ✅ Credentials stored in `.env` (not versioned)  
-✅ Persistent volumes for critical data 
+✅ Persistent volumes for critical data  
 ✅ Healthchecks for self-recovery 
 
 ---
@@ -93,4 +93,4 @@ docker compose up -d
 
 Local: http://localhost:8080
 
-**Moodle will be automatically installed on first run using the data from ** `.env`.
+**Moodle will be automatically installed on first run using the data from** `.env`.
